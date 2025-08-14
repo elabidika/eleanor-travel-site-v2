@@ -1,0 +1,14 @@
+/* Palette ELEANOR Travel */
+$primary-color: #a87c4f;    // Or élégant
+$secondary-color: #2a2a2a;  // Gris anthracite
+$text-color: #333333;       // Texte principal
+$link-color: $primary-color;
+$link-color-hover: darken($primary-color, 10%);
+
+/* Police */
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+/* Autres ajustements */
+$page-background-color: #ffffff;
+$header-background-color: $secondary-color;
+$header-text-color: #ffffff;
