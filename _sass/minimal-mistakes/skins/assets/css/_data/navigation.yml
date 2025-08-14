@@ -1,0 +1,15 @@
+main:
+  - title: "Accueil"
+    url: /
+  - title: "À propos"
+    url: /a-propos/
+  - title: "Services"
+    url: /services/
+  - title: "Omra & Hajj"
+    url: /omra-hajj/
+  - title: "Visas"
+    url: /visas/
+  - title: "Groupes / MICE"
+    url: /groupes-mice/
+  - title: "Contact"
+    url: /contact/
