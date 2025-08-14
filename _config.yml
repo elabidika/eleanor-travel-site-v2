@@ -1,0 +1,55 @@
+# Informations de base du site
+title: "ELEANOR Travel"
+subtitle: "Votre partenaire voyages & événements en Tunisie et à l'international"
+email: "contact@eleanortravel.tn"
+description: >-
+  ELEANOR Travel — Agence de voyages à Le Kef. Réservation, visas, Omra/Hajj, groupes, MICE et séjours sur mesure.
+baseurl: "" 
+url: "https://<TON-NOM-UTILISATEUR>.github.io/eleanor-travel-site-v2" # Remplace <TON-NOM-UTILISATEUR>
+
+# Thème
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "eleanor"
+
+# Langue et mise en page
+locale: "fr-FR"
+markdown: kramdown
+
+# Réglages de navigation
+paginate: 5
+paginate_path: "/page:num/"
+
+# Réseaux sociaux
+author:
+  name: "ELEANOR Travel"
+  avatar: "/assets/images/logo-eleanor-square.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:contact@eleanortravel.tn"
+    - label: "Facebook"
+      icon: "fab fa-facebook"
+      url: "https://www.facebook.com/eleanortravel"
+    - label: "Instagram"
+      icon: "fab fa-instagram"
+      url: "https://www.instagram.com/eleanortravel"
+
+# Fichiers de données et menus
+collections:
+  pages:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      author_profile: true
+
+# Plugins GitHub Pages
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
